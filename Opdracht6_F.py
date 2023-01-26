@@ -49,4 +49,4 @@ if(t == 4):
 	else: print(A[int((len(A) - 1) / 2)])
 
 else:
-	print(*sorted([x for x in A if (x >= 100 and x < 1000)]))
+	print(*set(sorted([x for x in A if (x >= 100 and x < 1000)])))

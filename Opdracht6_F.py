@@ -16,7 +16,7 @@ if(t == 1):
 	if(flag): print("No")
 
 if(t == 2):
-	if(len(set(A) != len(A)): print("Contains duplicate")	
+	if(len(set(A)) != len(A)): print("Contains duplicate")	
 	else: print("Unique")
 
 if(t == 3):

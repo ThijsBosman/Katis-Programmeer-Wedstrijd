@@ -16,16 +16,8 @@ if(t == 1):
 	if(flag): print("No")
 
 if(t == 2):
-	for x in range(len(A) - 1):
-		for y in range(x + 1, len(A)):
-			if(A[x] == A[y]):
-				print("Contains duplicate")
-				flag = False
-				break
-		else: continue
-		break
-		
-	if(flag): print("Unique")
+	if(len(set(A) != len(A)): print("Contains duplicate")	
+	else: print("Unique")
 
 if(t == 3):
 	total_count = 0

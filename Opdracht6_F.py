@@ -40,5 +40,5 @@ if(t == 4):
 	if(len(A) % 2 == 0): print(A[int(len(A) / 2) - 1], A[int(len(A) / 2)])
 	else: print(A[int((len(A) - 1) / 2)])
 
-else:
+if(t == 5):
 	print(*sorted([x for x in A if (x >= 100 and x < 1000)]))
